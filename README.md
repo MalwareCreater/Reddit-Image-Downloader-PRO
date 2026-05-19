@@ -34,6 +34,9 @@ Images will download automatically.
 - Google Chrome may occasionally ignore custom filenames provided by `GM_download()` due to browser download restrictions.
 - This behavior depends on the browser version, userscript manager, and Chromium download API implementation.
 - Chromium and some Chromium forks may preserve filenames correctly.
+- Some Reddit-hosted `.gif` files may fail to download correctly.
+- This happens because Reddit often serves animated media through alternative video/CDN formats instead of direct GIF files.
+- Standard image posts (`.jpg`, `.png`, `.webp`) and most galleries work normally.
 
 ## Changelog
 
