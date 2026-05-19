@@ -16,7 +16,7 @@ Userscript for downloading Reddit single images &amp; galleries with ordered fil
 
 2. Install the script:
 
-- Open `reddit-image-downloader-pro.min.js`
+- Open `reddit-image-downloader-pro.min.js` or click on [HERE](https://github.com/MalwareCreater/Reddit-Image-Downloader-PRO/blob/main/reddit-image-downloader-pro.min.js)
 - Then click **Raw**
 
 3. Your userscript manager will show an install prompt.
@@ -65,6 +65,13 @@ Images will download automatically.
 
 ### v1.0.0
 - Initial launch. Just capable of downloading images in .jpg format only from galleries.
+
+## Security / Transparency
+
+- VirusTotal scan available for the current release
+- No external trackers
+- No remote code loading
+- No data collection
 
 ## Disclaimer
 
