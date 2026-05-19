@@ -11,8 +11,10 @@ Userscript for downloading Reddit single images &amp; galleries with ordered fil
 
 ## Installation
 1. Install a userscript manager:
-- Tampermonkey
-- OrangeMonkey
+- [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+- [OrangeMonkey](https://chromewebstore.google.com/detail/orangemonkey/ekmeppjgajofkpiofbebgcbohbmfldaf)
+
+> I will suggest **OrangeMonkey** to avoid any additional setup from the userscript manager side.
 
 2. Install the script:
 
