@@ -38,6 +38,10 @@ Images will download automatically.
 - This happens because Reddit often serves animated media through alternative video/CDN formats instead of direct GIF files.
 - Standard image posts (`.jpg`, `.png`, `.webp`) and most galleries work normally.
 
+## Older Versions
+
+Previous stable builds are available in the [Releases](https://github.com/MalwareCreater/Reddit-Image-Downloader-PRO/releases/tag/v2.1.1) section.
+
 ## Changelog
 
 ### v2.1.1
