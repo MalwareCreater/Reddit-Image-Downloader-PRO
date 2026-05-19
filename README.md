@@ -29,14 +29,18 @@ Open a Reddit gallery post or a single image post and press:
 
 Images will download automatically.
 
+## Tested On
+
+- Tampermonkey
+- OrangeMonkey
+- Chromium
+- Google Chrome
+
 ## Known Issues
 
-- Google Chrome may occasionally ignore custom filenames provided by `GM_download()` due to browser download restrictions.
-- This behavior depends on the browser version, userscript manager, and Chromium download API implementation.
-- Chromium and some Chromium forks may preserve filenames correctly.
-- Some Reddit-hosted `.gif` files may fail to download correctly.
-- This happens because Reddit often serves animated media through alternative video/CDN formats instead of direct GIF files.
-- Standard image posts (`.jpg`, `.png`, `.webp`) and most galleries work normally.
+- GIF downloads may fail on some Reddit CDN/media links.
+- Google Chrome (newer versions) may ignore custom filenames due to browser download restrictions. Older versions will support custom filenames.
+- Chromium generally handles filename renaming better.
 
 ## Older Versions
 
