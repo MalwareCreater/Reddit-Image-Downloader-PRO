@@ -3,9 +3,15 @@
 // @namespace    reddit.tools.pro
 // @version      2.1.1
 // @description  Press Ctrl+Q to download Reddit gallery with ordered numbering
+// @homepageURL  https://github.com/MalwareCreater/Reddit-Image-Downloader-PRO
+// @source       https://github.com/MalwareCreater/Reddit-Image-Downloader-PRO/
+// @updateURL    https://raw.githubusercontent.com/MalwareCreater/Reddit-Image-Downloader-PRO/main/reddit-image-downloader-pro.min.user.js
+// @downloadURL  https://raw.githubusercontent.com/MalwareCreater/Reddit-Image-Downloader-PRO/main/reddit-image-downloader-pro.min.user.js
+// @supportURL   https://github.com/MalwareCreater/Reddit-Image-Downloader-PRO/issues
+// @license      MIT
 // @match        *://*.reddit.com/*
 // @grant        GM_download
-// @grant 		   GM_xmlhttpRequest
+// @grant        GM_xmlhttpRequest
 // @connect      reddit.com
 // @connect      www.reddit.com
 // @connect      redditmedia.com
