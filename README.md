@@ -1,6 +1,13 @@
 # Reddit Image Downloader PRO
 Userscript for downloading Reddit single images &amp; galleries with ordered filenames, without clicking and saving each image separately.
 
+It is also capable of renaming the file with the post title and adding a number to the filename to preserve the sequence in which the images have been posted in the Reddit post.
+
+Eg :- 
+- Post title `Cute cat 🥰🥰`. Suppose this post contains 10 pics.
+- `Ctrl + Q` triggers the scripts. The downloaded files will be named as `cute-cat-v0-01-<image.id>.jpg`, `cute-cat-v0-02-<image.id>.jpg`, `...`, and `cute-cat-v0-10-<image.id>.jpg`
+> Some users may face issues with the file renaming. Please refer [Known Issues](https://github.com/MalwareCreater/Reddit-Image-Downloader-PRO/tree/main#known-issues).
+
 ## Features
 
 - Ctrl+Q download shortcut
