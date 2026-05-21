@@ -11,10 +11,29 @@ Eg :-
 ## Features
 
 - Ctrl+Q download shortcut
-- Ordered filenames
-- Gallery support
+- Ordered filenames, to preserve the sequence in which the files have been posted
+- Downloads GIFs in `.mp4` format, resulting in dramatically smaller downloaded file size
 - Single-image support
+- Gallery support
 - Works with Tampermonkey / OrangeMonkey
+
+## Current Capability Level
+
+Right now the script supports:
+
+| Features             | Status |
+| -------------------- | ------ |
+| JPG                  | ✅      |
+| PNG                  | ✅      |
+| WEBP                 | ✅      |
+| Single image posts   | ✅      |
+| Gallery posts        | ✅      |
+| Mixed gallery (still images + gifs)       | ✅      |
+| Reddit GIF → MP4 ([reason](https://github.com/MalwareCreater/Reddit-Image-Downloader-PRO/releases/tag/v2.2.0))    | ✅      |
+| Animated gallery GIF | ✅      |
+| Proper naming (subjected to browser compatibility)        | ✅      |
+| old.reddit           | ✅      |
+| TamperMonkey + OrangeMonkey              | ✅      |
 
 ## Installation
 1. Install a userscript manager:
@@ -37,24 +56,6 @@ Open a Reddit gallery post or a single image post and press:
 `Ctrl + Q`
 
 Images will download automatically.
-
-## Current Capability Level
-
-Right now the script supports:
-
-| Features             | Status |
-| -------------------- | ------ |
-| JPG                  | ✅      |
-| PNG                  | ✅      |
-| WEBP                 | ✅      |
-| Single image posts   | ✅      |
-| Gallery posts        | ✅      |
-| Mixed gallery (still images + gifs)       | ✅      |
-| Reddit GIF → MP4     | ✅      |
-| Animated gallery GIF | ✅      |
-| Proper naming (subjected to browser compatibility)        | ✅      |
-| old.reddit           | ✅      |
-| TamperMonkey + OrangeMonkey              | ✅      |
 
 ## Tested On
 
